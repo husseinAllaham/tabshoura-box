@@ -67,15 +67,19 @@
         "zh-cn": "简体中文",
         "zh-tw": "正體中文"
     },
+    "siteurl": "https://lms.consultedsolutions.com/",
+    "skipssoconfirmation": false,
+    "siteUrl": "https://lms.consultedsolutions.com/",
+    "forceLogin": true,
     "wsservice": "moodle_mobile_app",
     "demo_sites": {
         "student": {
-            "url": "https://school.moodledemo.net",
+            "url": "https://lms.consultedsolutions.com/",
             "username": "student",
             "password": "moodle2024"
         },
         "teacher": {
-            "url": "https://school.moodledemo.net",
+            "url": "https://lms.consultedsolutions.com/",
             "username": "teacher",
             "password": "moodle2024"
         }
@@ -86,21 +90,28 @@
         "medium": 110,
         "high": 120
     },
-    "customurlscheme": "moodlemobile",
-    "sites": [],
+    "customurlscheme": "consulted",
+    "sites": [
+        {
+            "name": "short_name",
+            "alias": "full_name",
+            "url": "https://lms.consultedsolutions.com/",
+            "staging": false
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https://lms.consultedsolutions.com/moodle-app-privacy/",
     "notificoncolor": "#f98012",
     "enableanalytics": false,
     "enableonboarding": true,
-    "forceColorScheme": "",
+    "forceColorScheme": "#C50E70",
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
+        "android": "com.learniphi.consulted",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,
